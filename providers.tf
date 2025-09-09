@@ -16,7 +16,7 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket         = "terraform-kamalb"
+    bucket         = "my-s3-bucket-name-cr"
     key            = "terraform.tfstate"
     region         = "us-east-1"                   
     encrypt        = true                          
